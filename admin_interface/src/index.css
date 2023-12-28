@@ -1,0 +1,26 @@
+/* Add your CSS file or styles */
+
+/* Input fields */
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Button */
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #AF2F64;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #8e2358;
+}
