@@ -1,26 +1,133 @@
-/* Add your CSS file or styles */
+.navbar {
+  background-color: #AF2F64;
+  padding: 10px;
+  height: 15vh;
+}
 
-/* Input fields */
-input[type="text"] {
+.navbar .nav-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.navbar h1 {
+  color: white;
+  font-weight: bold;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+
+.navbar p {
+  color: white;
+  margin: 0;
+  font-size: small;
+}
+
+.main-content .row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.main-content .row .nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-content .row .nav-content .image-avant,
+.main-content .row .nav-content .image-apres {
+  width: 70px;
+  height: auto;
+  margin-top: 20px;
+}
+
+.main-content .row .nav-content .image-apres {
+  transform: scaleX(-1);
+}
+
+.main-content .row .nav-content h2 {
+  color: #AF2F64;
+  text-align: center;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  position: relative;
+  margin-top: 30px;
+}
+
+.main-content .row hr {
+  width: 50%;
+  color: #AF2F64;
+  border: 1px solid #AF2F64;
+  margin: auto;
+}
+
+.main-content .row .operations {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.main-content .row .operations button {
+  margin-right: 10px;
+}
+
+.addCourse {
+
+  border-radius: 20px;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+.addCourse .title {
+  color: white;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+
+.addCourse .content .inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+  margin: 25px;
+}
+
+.addCourse .content {
+  display: flex;
+  align-items: center;
+}
+
+.addCourse .content .inputs input {
   width: 100%;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   border: 1px solid #ccc;
-  border-radius: 5px;
+  border-radius: 6px;
   box-sizing: border-box;
 }
 
-/* Button */
-button[type="submit"] {
-  padding: 10px 20px;
-  background-color: #AF2F64;
-  color: white;
+.addCourse .content .inputs button {
+  width: 100%;
+  padding: 10px;
   border: none;
-  border-radius: 5px;
+  border-radius: 12px;
+  background-color: #F9B454;
+  /* Couleur de fond du bouton */
   cursor: pointer;
-  transition: background-color 0.3s ease;
 }
 
-button[type="submit"]:hover {
-  background-color: #8e2358;
+.material-icons {
+
+  color: #F9B454;
+
 }
